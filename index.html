@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: large;
+
+        }
+
+        table,
+        th,
+        td {
+            background-color: rgb(165, 179, 255);
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        form {
+            background-color: rgb(165, 179, 255);
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 1px 5px 10px rgb(86, 0, 245);
+        }
+
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        button {
+            background-color: #455de6;
+            border: 1px solid rgb(57, 9, 231);
+            border-radius: 20px;
+            font-size: 21px;
+            display: block;
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            box-shadow: 1px 5px 10px rgb(86, 0, 245);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>India's Population</h1>
+
+    <table style="width: 100%;">
+        <tr>
+            <th>StateName</th>
+            <th>Population</th>
+            <th colspan="2">Genderwise_Population</th>
+            <th colspan="6">Religionwise_Population</th>
+
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Male</th>
+            <th>Female</th>
+            <th>Hindus</th>
+            <th>Muslims</th>
+            <th>Christians</th>
+            <th>Sikhs</th>
+            <th>Buddhists</th>
+            <th>Jain</th>
+
+
+
+
+        </tr>
+        <tr>
+            <th>Gujarat</th>
+            <td>70,400,153</td>
+            <td>36,685,854</td>
+            <td>33,714,300</td>
+            <td>53,533,988</td>
+            <td>5,846,761
+            </td>
+            <td>316,178
+            </td>
+            <td>58,246
+            </td>
+            <td>30,483</td>
+            <td>579,654
+            </td>
+
+        </tr>
+
+        <tr>
+            <th>Mahatashtra</th>
+            <td>124,904,071</td>
+            <td>64,750,685</td>
+            <td>60,153,386</td>
+            <td>89,703,057</td>
+            <td>12,971,152
+
+            </td>
+            <td>1,080,073
+
+            </td>
+            <td>223,247
+
+            </td>
+            <td>6,531,200
+            </td>
+            <td>1,400,349
+
+            </td>
+
+        </tr>
+
+        <tr>
+            <th>Kerala</th>
+            <td>34,698,876</td>
+            <td>16,650,132</td>
+            <td>18,048,743</td>
+            <td>18,282,492</td>
+            <td>8,873,472
+
+            </td>
+            <td>6,141,269
+
+            </td>
+            <td>3,814
+
+            </td>
+            <td>4,752
+            </td>
+            <td>4,489
+
+            </td>
+
+        </tr>
+
+
+
+
+    </table>
+
+    <!-- 2 -->
+
+    <table style="width: 100%;">
+        <tr>
+            <th>StateName</th>
+
+            <th colspan="5">Agewise_Population</th>
+            <th colspan="5">Professionwise_Population</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>0-14</th>
+            <th>15-24</th>
+            <th>25-54</th>
+            <th>55-64</th>
+            <th>65 years and above</th>
+            <th>Agriculture</th>
+            <th>Banking</th>
+            <th>Teaching</th>
+
+            <th>Doctors</th>
+            <th>Engineers</th>
+
+
+
+        </tr>
+
+
+        <tr>
+        <tr>
+            <th>Gujarat</th>
+            < <td>6,149,445</td>
+                <td>5,865,760</td>
+                <td>5,780,722</td>
+                <td>2,697,183</td>
+                <td>1,727,752</td>
+                <td>2,30000</td>
+                <td>4,45,000</td>
+                <td>2,78,000</td>
+                <td> 6,009,000 </td>
+                <td>6,56,789</td>
+        </tr>
+        <th>Maharashtra</th>
+
+        <td>10,734,535</td>
+        <td>11,090,966 </td>
+        <td>14,147,113 </td>
+        <td>13,147,113 </td>
+        <td>3,078,352</td>
+        <td>1,36,00,000 </td>
+        <td>4,30,000</td>
+        <td>7,80,000</td>
+        <td>13,319,000</td>
+        <td>15,90,000</td>
+
+        </tr>
+
+
+        <tr>
+            <th>Kerela</th>
+
+            <td>2,822,770</td>
+            <td>3,665,809 </td>
+            <td>2,928,145 </td>
+            <td>2,697,183</td>
+            <td>1,002,134 </td>
+
+            <td>10,04,000</td>
+            <td>4,10,492</td>
+            <td>163,160</td>
+            <td> 6,147,000 </td>
+            <td>4,56,789</td>
+        </tr>
+
+
+
+
+
+    </table>
+    <center>
+        <section>
+            <form id="form">
+                <div class="form-control">
+                    <label for="name" id="name">Name</label>
+                    <input type="text" id="yourname" placeholder="Enter your Name" />
+
+                </div>
+                <div class="form-control">
+                    <label for="email" id="email">Email</label>
+                    <input type="email" id="youremail" placeholder="Enter your EmailId" />
+
+                </div>
+                <div class="form-control">
+                    <label for="role" id="role">Which option best describes you? </label>
+                    <select name="role" id="role">
+                        <option value="default">default</option>
+                        <option value="student">student</option>
+                        <option value="employee">employee</option>
+                        <option value="other">other</option>
+
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label for="Q1">Q1.Which State has highest Population?</label>
+                    <div>
+                        <label for="recommed-1">
+                            <input type="radio" id="recommed-1" name="recommed">Gujarat</input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio" id="recommed-2" name="recommed">Maharashtra</input>
+                        </label>
+                        <label for="recommed-3">
+                            <input type="radio" id="recommed-3" name="recommed">Kerala</input>
+                        </label>
+                    </div>
+
+                </div>
+
+                <!-- 2 -->
+
+                <div class="form-control">
+                    <label for="Q2">Q2.Which State has highest female Population?</label>
+                    <div>
+                        <label for="recommed-1">
+                            <input type="radio" id="recommed-1" name="recommed">Gujarat</input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio" id="recommed-2" name="recommed">Maharashtra</input>
+                        </label>
+                        <label for="recommed-3">
+                            <input type="radio" id="recommed-3" name="recommed">Kerala</input>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+
+                <div class="form-control">
+                    <label for="Q3">Q3.Which profession has lowest Population in Maharashtra?</label>
+                    <div>
+                        <label for="recommed-1">
+                            <input type="radio" id="recommed-1" name="recommed">Agriculture</input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio" id="recommed-2" name="recommed">Banking</input>
+                        </label>
+                        <label for="recommed-3">
+                            <input type="radio" id="recommed-3" name="recommed">Teaching</input>
+                        </label>
+                        <label for="recommed-4">
+                            <input type="radio" id="recommed-4" name="recommed">Doctors</input>
+                        </label>
+                        <label for="recommed-5">
+                            <input type="radio" id="recommed-5" name="recommed">Engineers</input>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+
+                <div class="form-control">
+                    <label for="Q4">Q4.Which religion has highest Population in gujarat?</label>
+                    <div>
+                        <label for="recommed-1">
+                            <input type="radio" id="recommed-1" name="recommed">Hindus</input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio" id="recommed-2" name="recommed">Muslims</input>
+                        </label>
+                        <label for="recommed-3">
+                            <input type="radio" id="recommed-3" name="recommed">Jain</input>
+                        </label>
+                        <label for="recommed-4">
+                            <input type="radio" id="recommed-4" name="recommed">Christians</input>
+                        </label>
+                        <label for="recommed-5">
+                            <input type="radio" id="recommed-5" name="recommed">Sikhs</input>
+                        </label>
+                        <label for="recommed-6">
+                            <input type="radio" id="recommed-6" name="recommed">Buddhists</input>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+
+                <div class="form-control">
+                    <label for="Q1">Q5.Which age group contain highest population in kerala ?</label>
+                    <div>
+                        <label for="recommed-1">
+                            <input type="radio" id="recommed-1" name="recommed">0-14</input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio" id="recommed-2" name="recommed">15-24</input>
+                        </label>
+                        <label for="recommed-3">
+                            <input type="radio" id="recommed-3" name="recommed">25-54</input>
+                        </label>
+                        <label for="recommed-4">
+                            <input type="radio" id="recommed-4" name="recommed">55-64</input>
+                        </label>
+                        <label for="recommed-5">
+                            <input type="radio" id="recommed-5" name="recommed">65 years and above</input>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" value="submit">
+                    Submit
+                </button>
+
+
+
+            </form>
+
+        </section>
+    </center>
+
+</body>
+
+</html>
